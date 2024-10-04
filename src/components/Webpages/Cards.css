@@ -1,0 +1,110 @@
+#bmain {
+    width: 1296px;
+    height: 1580px;
+    padding: 100px 0px;
+    margin-left: 100px;
+}
+#headd {
+    height: 200px;
+    width: 100%;
+}
+.sub {
+    height: 99px;
+    width: 100%;
+}
+.sub h1 {
+    margin-top: -10px;
+}
+.sub p {
+    margin-top: -10px;
+    font-size: 1.5rem;
+}
+#sear {
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+#fil {
+    height: 100%;
+    width: 100px;
+}
+#fil p {
+    padding-top: 40px;
+}
+.three {
+    height: 100%;
+    width: 30%;
+    display: flex;
+}
+.three select {
+    height: 37px;
+    width: 204px;
+    margin-top: 25px;
+}
+.three p {
+    margin-top: 28px;
+    color: blue;
+    font-size: medium;
+    margin-left: 10px;
+}
+.three input {
+    height: 37px;
+    width: 204px;
+    border-radius: 5px;
+    margin-top: 23px;
+}
+#cards {
+    height: 1500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.card {
+    height: 398px;
+    width: 306px;
+    border: 1px solid;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    box-shadow: 2px 1px 10px 1px rgba(0, 0, 0, 0.3);
+}
+.card img {
+    width: 306px;
+    height: 306px;
+    z-index: 0;
+    border-radius: 10px 10px 0px 0px;
+}
+.card img:hover{
+    opacity: 50%;
+}
+.card h2, .card p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+#pri {
+    display: flex;
+    margin-top: -10px;
+}
+#left {
+    width: 75%;
+}
+#right {
+    padding-top: 0px;
+}
+#tag {
+    position: absolute;
+    top: 10px;
+    left: 175px;
+    padding: 5px 10px;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px 0px 0px 5px;
+    z-index: 1;
+    height: 20px;
+    width: 120px;
+    margin-top: 16px;
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+.cards{
+    height: 458px;
+    width: 306px;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 8px;
+}
+.cards h4{
+    margin-top: -100px;
+    color: white;
+    font-size:1.5em;
+    text-align: center;
+    text-decoration: none;
+}
+.cards p{
+    margin-left: 80px;
+    margin-top: -40px;
+    color: white;
+    font-size:1.5em;
+    text-decoration: none;
+}
+.cards img{
+    height: 458px;
+    width: 306px;
+    border-radius: 8px ;
+    
+}
+.cards img:hover{
+    opacity: 50%;
+}
+.cards img:hover{
+    transform: scale(1.09);
+    cursor: pointer;
+}
+
